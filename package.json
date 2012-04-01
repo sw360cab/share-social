@@ -1,0 +1,18 @@
+{
+  "name": "share-social",
+  "version": "0.0.1",
+  "description": "",
+  "author": { "name": "Sergio Matone", "email": "sw360cab@gmail.com"},
+  "keywords": ["passport", "twitter", "oauth", "oauth2", "share", "facebook"],
+  "dependencies": {
+    "express": "2.5.2",
+    "oauth":"0.9.5", 
+    "passport": "0.1.5",
+    "passport-local": "0.1.x",
+    "passport-twitter": "0.1.x",
+    "passport-facebook": "0.1.x"
+  },
+  "version"         : "0.1.0",
+  "main"            : "./lib/share-social",
+  "engines"         : { "node": ">=0.3.6" }
+}
