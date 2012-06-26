@@ -1,18 +1,20 @@
 {
   "name": "share-social",
-  "version": "0.0.1",
-  "description": "",
-  "author": { "name": "Sergio Matone", "email": "sw360cab@gmail.com"},
-  "keywords": ["passport", "twitter", "oauth", "oauth2", "share", "facebook"],
+  "version": "0.1.0",
+  "description": "A modular Node JS library for sharing and posting on social networksusing OAuth",
+  "author": {"name": "Sergio Matone", "email": "sw360cab@gmail.com"},
+  "keywords": ["oauth", "oauth2", "share", "facebook", "twitter", "passport"],
   "dependencies": {
+    "oauth":"0.9.5"
+  },
+  "devDependencies": {
     "express": "2.5.2",
-    "oauth":"0.9.5", 
     "passport": "0.1.5",
     "passport-local": "0.1.x",
     "passport-twitter": "0.1.x",
     "passport-facebook": "0.1.x"
   },
-  "version"         : "0.1.0",
   "main"            : "./lib/share-social",
   "engines"         : { "node": ">=0.3.6" }
 }
+
