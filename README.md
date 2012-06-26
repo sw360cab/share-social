@@ -18,10 +18,9 @@ It includes the following modules:
 		console.dir(done);
 		res.writeHead(done.statusCode,'text/plain');
 		res.end("Finished posting tweet");  
-		});
-```
+		});```
 
-	where:  
+	where: 
 	- *theToken* is the twitter token
 	- *theTokenSecret* is the twitter token secret
 	- *'msg'* is the custom message to post
@@ -43,8 +42,7 @@ It includes the following modules:
     var stausCode = err ? err.statusCode : 200
     res.writeHead(stausCode,'text/plain');
     res.end("Finished updating facebook status");
-  });
-  ```
+  });```
   
 	where:  
 	- *theToken* is the facebook token
