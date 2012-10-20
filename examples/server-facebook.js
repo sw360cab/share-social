@@ -118,7 +118,7 @@ app.get('/send', function (req,res) {
   console.log('facebook updating status with token ' + theToken + ' and tokenSecret' + theTokenSecret);
   
   var fb = new FacebookIt(FACEBOOK_APP_ID,FACEBOOK_APP_SECRET,CALLBACK_URI);
-  fb.sendFacebook(theToken,theTokenSecret,'Hi facebook!', profileId,  function(err, result) {
+  fb.updateStatus(theToken,'Hi facebook!', profileId,  function(err, result) {
     console.dir(result);
     var stausCode = err ? err.statusCode : 200
     res.writeHead(stausCode,'text/plain');
