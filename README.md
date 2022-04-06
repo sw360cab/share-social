@@ -1,6 +1,6 @@
 #Share Social
 
-A modular Node JS library for sharing and posting on social networksusing OAuth. 
+A modular Node JS library for sharing and posting on social networks using OAuth. 
 It includes the following modules:
 
 - module-twitter (based on **OAuth 1.0**)
